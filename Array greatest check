@@ -1,0 +1,28 @@
+
+#include <stdio.h>
+
+int main() {
+int d;
+int arr[2];
+for(d=0;d<=2;d++){
+printf("Enter %d: ",d+1);
+scanf("%d",&arr[d]);
+}
+printf("%d\n%d\n%d\n",arr[0],arr[1],arr[2]);
+if(arr[0]>arr[1]){
+    if(arr[0]>arr[2]){
+        printf("%d is greatest",arr[0]);
+    }
+}
+if(arr[1]>arr[2]){
+    if(arr[1]>arr[0]){
+        printf("%d is greatest",arr[1]);
+    }
+}
+if(arr[2]>arr[1]){
+    if(arr[0]<arr[2]){
+        printf("%d is greatest",arr[2]);
+    }
+}
+    return 0;
+}
