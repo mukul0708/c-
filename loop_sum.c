@@ -1,7 +1,7 @@
 #include<stdio.h>
 int add_by_do_while(){
     int n,sum=0,a=1;
-    printf("Enter n \n");
+    printf("Enter n upto whom you want sum \n");
     scanf("%d",&n);
     do{
         sum+=a;
@@ -13,7 +13,7 @@ int add_by_do_while(){
 }
 int add_by_while(){
     int n,sum=0,a=1;
-    printf("Enter n \n");
+    printf("Enter n upto whom you want sum \n");
     scanf("%d",&n);
     do{
         sum+=a;
@@ -25,7 +25,7 @@ int add_by_while(){
 }
 int add_by_for(){
     int n,sum=0,i;
-    printf("Enter n \n");
+    printf("Enter n upto whom you want sum \n");
     scanf("%d",&n);
     for(i=1;i<=n;i++){
         sum+=i;
