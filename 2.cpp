@@ -1,7 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main(){
+class construct{
+public:
 
+// Default Constructor
+construct()
+{
+	cout <<"Constructor \n";
+}
+};
+
+int main(){
+    construct obj;
 return 0;
 }
