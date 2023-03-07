@@ -6,9 +6,13 @@ Properties
 4. If we do not specify a constructor, C++ compiler generates a default constructor for us 
    (expects no parameters and has an empty body).
 
-Types of constructors
+Types of constructors  //explain
 1. Default Constructors: 
 2. Parameterized Constructors:
 3. Copy Constructor:
+
+Syntax of copy constructor
+    copyconstructor (copyconstructor &sam)
+    
 
 
