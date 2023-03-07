@@ -1,22 +1,17 @@
-//Static datamember
 #include <bits/stdc++.h>
 using namespace std;
 
-class stat{
-    public:
-    void func(){
-    static int x = 1;
-    int y=1;
-    cout <<"static: " <<x <<"\t" <<"Non static: " <<y <<endl;
-    x++;
-    y++;
-    }
+class construct{
+public:
+
+// Default Constructor
+construct()
+{
+	cout <<"Constructor \n";
+}
 };
 
-int main() {
-    stat s1;
-    for(int i=1;i<=5;i++){
-        s1.func();
-    }
-    return 0;
+int main(){
+    construct obj;
+return 0;
 }

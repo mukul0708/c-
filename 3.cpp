@@ -4,9 +4,13 @@ using namespace std;
 class con{
 public:
 int x,y;
-con(int x1,int y1){
-    x=x1;
-    y=y1;
+con(){
+	x=200;
+	y=300;
+}
+con(con & obj){
+    x=obj.x;
+    y=obj.y;
 }
 void disp(){
     cout <<x <<"\t" <<y <<endl;
@@ -14,7 +18,9 @@ void disp(){
 };
 
 int main(){
-    con obj(200,300);
-    obj.disp();
+    con o1;
+    con o2=o1;
+    o1.disp();
+    o2.disp();
 return 0;
 }

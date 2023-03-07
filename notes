@@ -11,8 +11,7 @@ Types of constructors  //explain
 2. Parameterized Constructors:
 3. Copy Constructor:
 
-Syntax of copy constructor
-    copyconstructor (copyconstructor &sam)
+Syntax of copy constructor and types
     
 
 
